@@ -1,0 +1,14 @@
+class name          -->     Responsiblity
+
+Employee                Represents a single employee (data model)
+EmployeeDatabase        Stores and manages the list of employees (add/delete/search logic)
+Menu                    Handles all user interaction (menu options, input/output)
+MainApp                 Contains the main method and start the program
+
+-------------------------------------------------------------------------------------------------------------------
+
+Flow :-                     Description
+MainApp                 Start the program and create a Menu object
+Menu                    Display options (Build/insert/Delete/search/Exit)
+EmployeeDatabase        Handles all operation on the list of employee
+Employee                Represents each employee's data and knows how to Display itself
