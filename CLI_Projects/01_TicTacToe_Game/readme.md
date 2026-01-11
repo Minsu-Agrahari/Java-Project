@@ -1,4 +1,3 @@
-````markdown
 # Tic Tac Toe Game (CLI – Java) 🎮
 
 A simple and professional **command-line Tic-Tac-Toe game** built using Java.  
@@ -148,5 +147,3 @@ You are free to use, modify, and distribute this software with proper attributio
 
 **Minsu Agrahari**
 GitHub: [https://github.com/Minsu-Agrahari](https://github.com/Minsu-Agrahari)
-
-````
