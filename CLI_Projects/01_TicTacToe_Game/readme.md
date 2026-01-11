@@ -1,71 +1,46 @@
-Your README content is structurally good; the **problem is only with the badge URLs**. GitHub renders badges strictly, and a few of the shields you used either:
-
-* Point to non-standard labels, or
-* Use styles that are no longer reliably rendered
-
-Below is an **improved, GitHub-safe version** with **working badges**, cleaner wording, and minor professional refinements. You can replace your README entirely with this.
-
----
-
-## ✅ Fixed & Improved README (Badges Will Render Correctly)
-
 ````markdown
-# Tic Tac Toe Game (CLI – Java)
+# Tic Tac Toe Game (CLI – Java) 🎮
 
-![Java](https://img.shields.io/badge/Java-8%2B-007396?logo=java&logoColor=white)
-![Build](https://img.shields.io/badge/Build-Passing-brightgreen)
-![License](https://img.shields.io/badge/License-MIT-blue)
-![Platform](https://img.shields.io/badge/Platform-CLI-lightgrey)
-
-A simple and clean **command-line Tic-Tac-Toe game** built using Java.  
-This project demonstrates core programming concepts such as control flow, arrays, user input handling, and game-state management.
+A simple and professional **command-line Tic-Tac-Toe game** built using Java.  
+This project demonstrates core programming concepts such as control flow, arrays, input handling, and basic game logic.
 
 ---
 
-## Table of Contents
-- About
-- Features
-- Prerequisites
-- Project Structure
-- How to Run
-- Gameplay
-- Contributing
-- Future Enhancements
-- License
+## About the Project
 
----
+This project is a terminal-based implementation of the classic **Tic-Tac-Toe** game.  
+It is designed to help learners strengthen their understanding of:
 
-## About
-This project implements the classic **Tic-Tac-Toe** game in a terminal environment.  
-It is designed as a beginner-friendly Java project to practice:
-
-- Logical problem solving  
-- Game flow control  
-- Input validation  
-- Basic software design  
+- Conditional logic  
+- Loops and flow control  
+- Arrays and data handling  
+- User input validation  
+- Game state management  
 
 ---
 
 ## Features
+
 - Two-player turn-based gameplay  
-- 3×3 board rendered in the console  
+- 3×3 board displayed in the terminal  
 - Automatic win detection  
-- Draw detection when the board is full  
+- Draw detection when no moves remain  
 - Input validation for invalid or occupied positions  
-- Clean and readable CLI interface  
+- Clean and well-structured code  
 
 ---
 
-## Prerequisites
-Ensure the following are installed:
+## Prerequisites ⚙️
 
-- **Java JDK 8 or higher**
-- Command Prompt / Terminal
+- **Java JDK 8 or higher**  
+- A terminal or command prompt  
 
-Verify installation:
+---
+
+Verify Java installation:
 ```bash
 java -version
-````
+```
 
 ---
 
@@ -75,7 +50,7 @@ java -version
 01_TicTacToe_Game/
 │
 ├── src/
-│   └── Main.java        # Game entry point and logic
+│   └── Main.java        <-- Entry point and game logic
 │
 ├── .gitignore
 └── README.md
@@ -85,19 +60,19 @@ java -version
 
 ## How to Run
 
-### Step 1 — Navigate to the project
+### Step 1 — Navigate to the project directory
 
 ```bash
 cd CLI_Projects/01_TicTacToe_Game
 ```
 
-### Step 2 — Compile the program
+### Step 2 — Compile
 
 ```bash
 javac src/Main.java
 ```
 
-### Step 3 — Run the game
+### Step 3 — Run
 
 ```bash
 java -cp src Main
@@ -105,12 +80,12 @@ java -cp src Main
 
 ---
 
-## Gameplay
+## Gameplay 🕹️
 
 * Player **X** goes first
 * Player **O** goes second
-* Players choose positions from **1 to 9**
-* The first player to align three marks (row, column, or diagonal) wins
+* Players select positions from **1 to 9**
+* The first player to align three marks wins
 * If all positions are filled without a winner, the game ends in a draw
 
 ### Sample Output
@@ -129,13 +104,11 @@ Player X wins!
 
 ---
 
-## Contributing
+## Contributing 🤝
 
-Contributions are welcome and appreciated.
+Contributions are welcome.
 
-### How to Contribute
-
-1. Fork this repository
+1. Fork the repository
 2. Create a new branch
 
    ```bash
@@ -145,22 +118,16 @@ Contributions are welcome and appreciated.
 4. Commit your work
 
    ```bash
-   git commit -m "Add: your feature description"
+   git commit -m "Add: short description of changes"
    ```
 5. Push to your fork
 6. Open a Pull Request
 
-Please ensure:
-
-* Code is clean and readable
-* Logic is well-structured
-* Changes are well-documented
+Please ensure your code is clean, readable, and well-structured.
 
 ---
 
-## Future Enhancements
-
-Planned improvements for this project:
+## Future Improvements
 
 * Single-player mode with AI
 * Difficulty levels
@@ -182,23 +149,3 @@ You are free to use, modify, and distribute this software with proper attributio
 **Minsu Agrahari**
 GitHub: [https://github.com/Minsu-Agrahari](https://github.com/Minsu-Agrahari)
 
-```
-
----
-
-## Why your previous badges failed
-- `Platform-CLI-important` → **invalid color keyword**
-- Missing `logo` parameters for Java badge
-- Shields.io requires strict formatting
-
-The revised badges use **official shields.io formats**, which GitHub renders reliably.
-
----
-
-If you want, I can now:
-- Add a **real build badge** using GitHub Actions
-- Add a **stars / forks badge**
-- Standardize this README across **all CLI projects in your repo**
-
-Just tell me.
-```
